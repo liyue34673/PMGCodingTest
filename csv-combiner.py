@@ -29,7 +29,7 @@ class Combiner:
 
     def combineFiles(self, argv: list):
         """
-        This function add a new column to the original file and combines all rows in the given files
+        This function adds a new column to the original file and combines all rows in the given files
         """
         chunksize = 10 ** 4
         chunk_list = []
